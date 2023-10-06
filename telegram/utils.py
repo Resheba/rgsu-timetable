@@ -20,6 +20,7 @@ def group_message_formater(
     table.set_style(MSWORD_FRIENDLY)
     return date + table.get_string()
 
+
 def group_keyboard_formater(
         lessons: tuple[Lesson] = None 
 ) -> list[list[InlineKeyboardButton]]:

@@ -18,6 +18,7 @@ class TimeTableResponse:
         self.weekName: str = weekName
         self.extra: dict = extra
 
+
 class GroupQueryResponse:
     def __init__(
             self,
