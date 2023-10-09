@@ -17,7 +17,7 @@ def group_message_formater(
     date: str = f"{dateName}  {weekDay}  {weekName}\n{group}\n\n"
     table.add_rows([(lesson.time, lesson.title[:sep], lesson.teacher[:sep], lesson.address[:sep], lesson.auditory) 
                     for lesson in lessons])
-    table.set_style(MSWORD_FRIENDLY)
+    # table.set_style(MSWORD_FRIENDLY)
     return date + table.get_string()
 
 
